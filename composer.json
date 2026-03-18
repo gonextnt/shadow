@@ -1,0 +1,25 @@
+{
+    "name": "gonextnt/shadow",
+    "description": "practik",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gonextnt"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1"
+
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+                "": "app/"
+            }
+        }
+}
+
